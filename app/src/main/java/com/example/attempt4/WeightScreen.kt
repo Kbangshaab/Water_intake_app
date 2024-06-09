@@ -8,7 +8,8 @@ import androidx.navigation.NavController
 
 @Composable
 fun WeightScreen(navController: NavController){
-    val url = "https://www.calculator.net/bmi-calculator.html"
+    val url = "https://example.com"
+    /The same as CaloriesScreen
     AndroidView(factory = {
         WebView(it).apply {
             webViewClient = WebViewClient()
